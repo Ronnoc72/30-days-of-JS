@@ -7,7 +7,20 @@ body {
     grid-template-columns: repeat(9, auto);
 }
 
+.key {
+    margin-top: 100%;
+    padding: 10px;
+}
+
 kbd {
+    font-size: 24px;
     background-color: #cc87ff;
     padding: 25px;
+    border-radius: 5%;
+}
+
+.playing {
+    transition-property: all;
+    transition-duration: 0.7s;
+    border: 2px solid wheat;
 }
