@@ -1,0 +1,13 @@
+body {
+    background-color: #e7c7ff;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+}
+
+kbd {
+    background-color: #cc87ff;
+    padding: 25px;
+}
