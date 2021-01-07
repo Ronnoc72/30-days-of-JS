@@ -21,6 +21,6 @@ kbd {
 
 .playing {
     transition-property: all;
-    transition-duration: 0.7s;
+    transition-duration: 0.6s;
     border: 2px solid wheat;
 }
