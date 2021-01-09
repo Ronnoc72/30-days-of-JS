@@ -23,3 +23,10 @@ const totalYears = info.reduce((total, person) => {
     return total + (person.age);
 }, 0);
 console.log(totalYears);
+// to convert a node list into an array use 'Array.from()'.
+// chaning operations is possible.
+const orderOfNameLength = info
+            .map(person => `${person.first} ${person.last}`)
+            .sort((a, b) => a.length > b.length ? 1 : -1);
+
+console.log(orderOfNameLength);
